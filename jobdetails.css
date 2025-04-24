@@ -1,0 +1,60 @@
+/* Job Details Page Styles */
+.job-detail {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .job-detail:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-detail h2 {
+    font-size: 1.75rem;
+    color: #005aab;
+    margin-bottom: 15px;
+  }
+  
+  .job-detail p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .job-detail p strong {
+    color: #333;
+  }
+  
+  .job-detail a {
+    display: inline-block;
+    background-color: #005aab;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .job-detail a:hover {
+    background-color: #003d7a;
+  }
+  
+  /* Responsive Tweaks for Job Details */
+  @media (max-width: 768px) {
+    .job-detail {
+      padding: 20px;
+    }
+  
+    .job-detail h2 {
+      font-size: 1.5rem;
+    }
+  
+    .job-detail p {
+      font-size: 0.95rem;
+    }
+  }
+  
